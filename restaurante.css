@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(244, 244, 244);
+}
+
+/* estilo da div cabeçalho */
+.header {
+    background: linear-gradient(to right, #f5e1c1,#f5d8c7);
+    background-size: cover;
+    display: flex;
+}
+
+.titulo {
+    font-size: 37px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub {
+  font-size: 13px ;
+  font-family: 'Poppins', sans-serif;
+  margin: -10px 0 0 0;
+}
+
+.buy {
+  height: 40px ;
+  width: 120px;
+  margin: 20px 0 20px 0;
+  background-color: orange;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 3px;
+  border: solid transparent;
+}
+
+.inicio {
+  flex: 1;
+  padding: 60px 0 0 200px;
+}
+
+.primeiraimagem {
+ flex:2;
+}
+
+.img1{
+ height: 415px;
+ padding: 0 0 0 200px;
+ margin: 35px 0 50px 0;
+}
+
+.social {
+  margin: 15px 0 0 0;
+}
+
+.face, .twitter, .insta{ 
+  height: 35px;
+  width: 35px;
+  padding: 2px 1px 0 1px;
+  margin: 0 20px 0 0;
+  border: solid transparent;
+  border-radius: 100px;
+}
+
+/* estilo da div pratospopulares*/
+.titulo2 {
+  margin: 70px 0 0 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 33px;
+}
+
+.sub2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  text-align: center;
+}
+
+.chainess {
+  flex: 2;
+  margin: 30px 0 0 0 ;
+}
+
+ .pasta {
+  flex: 1;
+  height: 420px;
+  margin: 30px 0 0 0 ;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+.fried {
+  flex: 2;
+  margin: 30px 0 0 0 ;
+}
+
+.prato {
+  width: 245px;
+  margin: 30px 20px 10px 20px;
+}
+
+h3{
+  margin: -1px 0 0 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+}
+
+.conteudo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+/* estilo da div explorar */
+.explorar {
+  display: flex;
+  margin: 90px 0 0 0;
+  justify-content: center;
+  align-items:center ;
+}
+.segundaimagem {
+flex: 1;
+}
+
+.img2 {
+  width: 465px;
+  margin: 0 0 14px 190px;
+}
+
+.informacoes {
+ flex: 1;
+ padding: 0 0 0 50px;
+}
+
+.sobrenos {
+  color: orange;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.titulo3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:35px;
+}
+
+.sub3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.botaoexplorar {
+  height: 38px ;
+  width: 180px;
+  margin: 20px 0 20px 0;
+  background-color: orange;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border: solid transparent;
+  border-radius: 3px;
+}
+
+/* estilo da div enviar*/
+.enviaremail{
+  height: 300px;
+  width: 920px;
+  margin: 90px 0 0 0 ;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  background-image: url(legumes.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.titulo4 {
+  padding: 70px 110px 0 0;
+  color: white;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.email{
+  width: 450px;
+  height: 60px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="email"]{
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: black;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+input[type="submit"]{
+  height: 35px;
+  width: 90px;
+  margin: 1px 0 0 150px;
+  background-color: orange;
+  color: white;
+  border-radius: 3px;
+  border: solid transparent;
+}

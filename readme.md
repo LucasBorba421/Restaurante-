@@ -1,0 +1,1 @@
+Olá, essa é uma página restaurante feita com HTML e css puro.
